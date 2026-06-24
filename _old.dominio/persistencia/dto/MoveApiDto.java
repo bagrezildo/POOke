@@ -1,4 +1,4 @@
-package com.pooke.persistencia.dto;
+package com.pooke._old.dominio.persistencia.dto;
 
 public class MoveApiDto {
     public int id;

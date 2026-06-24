@@ -1,4 +1,4 @@
-package com.pooke.dominio;
+package com.pooke._old.dominio;
 
 public abstract class Golpe {
     private final String nome;

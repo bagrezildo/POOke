@@ -1,4 +1,4 @@
-package com.pooke.persistencia.dto;
+package com.pooke._old.dominio.persistencia.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -1,4 +1,4 @@
-package com.pooke.dominio;
+package com.pooke._old.dominio;
 
 public class GolpeEspecial extends Golpe{
     public GolpeEspecial(String nome, int poderBase, Tipo tipo) {

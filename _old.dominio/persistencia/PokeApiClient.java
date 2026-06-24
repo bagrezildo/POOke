@@ -1,13 +1,13 @@
-package com.pooke.persistencia;
+package com.pooke._old.dominio.persistencia;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.pooke.dominio.*;
+import com.pooke._old.dominio.*;
 import com.pooke.excecoes.PokeApiException;
-import com.pooke.persistencia.dto.MoveApiDto;
-import com.pooke.persistencia.dto.PokemonApiDto;
+import com.pooke._old.dominio.persistencia.dto.MoveApiDto;
+import com.pooke._old.dominio.persistencia.dto.PokemonApiDto;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;

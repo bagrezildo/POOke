@@ -1,4 +1,4 @@
-package com.pooke.dominio;
+package com.pooke._old.dominio;
 
 public class GolpeFactory {
     public static Golpe criar(String nome, Integer poderBase, Tipo tipo, String classeDano) {

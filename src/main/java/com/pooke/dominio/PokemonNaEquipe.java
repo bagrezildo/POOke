@@ -11,12 +11,12 @@ public class PokemonNaEquipe {
     private List<Golpe> golpesConhecidos;
     private List<Golpe> golpesEquipados;
 
-    public PokemonNaEquipe(EspeciePokemon especie, int nivel, int hpAtual, PokemonStats statsAtual, List<Golpe> golpesConhecidos, List<Golpe> golpesEquipados) {
-        this.especie = especie;
-        this.nivel = 1;
-        this.statsAtual = statsAtual;
-        this.golpesConhecidos = new ArrayList<>();
-        this.golpesEquipados = new ArrayList<>();
+    public PokemonNaEquipe(Builder builder) {
+        this.especie = builder.especie;
+        this.nivel = builder.nivel;
+        this.statsAtual = builder.statsAtual;
+        this.golpesConhecidos = builder.golpesConhecidos;
+        this.golpesEquipados = builder.golpesEquipados;
 
         recalcularStats();
         this.hpAtual = this.statsAtual.hp();
@@ -47,4 +47,24 @@ public class PokemonNaEquipe {
     public PokemonStats getStatsAtual() { return statsAtual; }
     public List<Golpe> getGolpesConhecidos() { return new ArrayList<>(golpesConhecidos); }
     public List<Golpe> getGolpesEquipados() { return new ArrayList<>(golpesEquipados); }
+
+    public static class Builder {
+        private EspeciePokemon especie;
+        private int nivel = 1;
+        private int hpAtual;
+        private PokemonStats statsAtual;
+        private List<Golpe> golpesConhecidos = new ArrayList<>();
+        private List<Golpe> golpesEquipados = new ArrayList<>();
+
+        public Builder especie(EspeciePokemon especie) { this.especie = especie; return this; }
+        public Builder nivel(int nivel) { this.nivel = nivel; return this; }
+        public Builder hpAtual(int hpAtual) { this.hpAtual = hpAtual; return this; }
+        public Builder statsAtual(PokemonStats stats) { this.statsAtual = stats; return this; }
+        public Builder golpesConhecidos(List<Golpe> golpes) { this.golpesConhecidos = golpes; return this; }
+        public Builder golpesEquipados(List<Golpe> golpes) { this.golpesEquipados = golpes; return this; }
+
+        public PokemonNaEquipe build() {
+            return new PokemonNaEquipe(this);
+        }
+    }
 }

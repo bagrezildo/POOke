@@ -2,8 +2,8 @@ package com.pooke.dominio;
 
 public class PokemonFisico extends Pokemon{
 
-    public PokemonFisico(String nome, int nivel, int hpMax, int hpMax1, int hpAtual, int ataque, int defesa, int velocidade) {
-        super(nome, nivel, hpMax, hpMax1, hpAtual, ataque, defesa, velocidade);
+    public PokemonFisico(String nome, int nivel, int hpMax, int hpAtual, int ataque, int defesa, int velocidade) {
+        super(nome, nivel, hpMax, hpAtual, ataque, defesa, velocidade);
     }
 
     public void subirDeNivel(){

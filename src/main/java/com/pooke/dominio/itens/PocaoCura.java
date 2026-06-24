@@ -1,6 +1,8 @@
 package com.pooke.dominio.itens;
 
 import com.pooke.dominio.Pokemon;
+import com.pooke.excecoes.CurarDesmaiadoException;
+import com.pooke.excecoes.VidaCheiaException;
 
 public class PocaoCura implements Item {
     private int poderCura;

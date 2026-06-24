@@ -1,4 +1,4 @@
-package com.pooke.dominio.itens;
+package com.pooke.excecoes;
 
 public class CurarDesmaiadoException extends RuntimeException {
     public CurarDesmaiadoException(String message) {

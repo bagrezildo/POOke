@@ -1,5 +1,8 @@
 package com.pooke.dominio;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Pokemon {
     protected String nome;
     protected int nivel;
@@ -8,6 +11,7 @@ public abstract class Pokemon {
     protected int ataque;
     protected int defesa;
     protected int velocidade;
+    protected List<Golpe> golpes;
 
     public Pokemon(String nome, int nivel, int hpMax, int hpAtual, int ataque, int defesa, int velocidade) {
         this.nome = nome;
@@ -17,6 +21,7 @@ public abstract class Pokemon {
         this.ataque = ataque;
         this.defesa = defesa;
         this.velocidade = velocidade;
+        this.golpes = new ArrayList<>();
     }
 
     public String getNome() {

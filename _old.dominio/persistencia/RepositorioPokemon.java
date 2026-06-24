@@ -3,7 +3,6 @@ package com.pooke._old.dominio.persistencia;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.pooke._old.dominio.EspeciePokemon;
-import com.pooke.excecoes.PersistenciaException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;

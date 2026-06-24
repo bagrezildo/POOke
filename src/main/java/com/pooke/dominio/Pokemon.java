@@ -55,6 +55,13 @@ public abstract class Pokemon {
         }
     }
 
+    public void receberCura(int cura){
+        if (this.getHpAtual() + cura > this.getHpMax()) {
+            this.hpAtual = this.hpMax;
+        }
+        this.hpAtual = this.getHpAtual() + cura;
+    }
+
     public abstract void subirDeNivel();
 
 }

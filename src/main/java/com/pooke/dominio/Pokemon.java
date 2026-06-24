@@ -55,9 +55,6 @@ public abstract class Pokemon {
         this.hpAtual = this.getHpAtual() - dano;
         if(this.hpAtual <= 0){
             this.hpAtual = 0;
-            Printer.narrarDesmaio(this);
-        }else {
-            Printer.narrarDano(this, dano);
         }
     }
 
@@ -67,7 +64,6 @@ public abstract class Pokemon {
         } else {
             this.hpAtual = this.getHpAtual() + cura;
         }
-        Printer.narrarCura(this, cura);
     }
 
     public void aumentarAtributo(String atributo, int bonus){

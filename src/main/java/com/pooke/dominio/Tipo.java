@@ -1,4 +1,4 @@
-package com.pooke._old.dominio;
+package com.pooke.dominio;
 
 import java.util.Collections;
 import java.util.List;

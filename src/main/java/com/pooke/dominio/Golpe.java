@@ -3,9 +3,9 @@ package com.pooke.dominio;
 public class Golpe {
     private String nome;
     private int poderBase;
-    private String tipo;
+    private Tipo tipo;
 
-    public Golpe(String nome, int poderBase, String tipo) {
+    public Golpe(String nome, int poderBase, Tipo tipo) {
         this.nome = nome;
         this.poderBase = poderBase;
         this.tipo = tipo;
@@ -19,7 +19,7 @@ public class Golpe {
         return poderBase;
     }
 
-    public String getTipo() {
+    public Tipo getTipo() {
         return tipo;
     }
 }

@@ -1,8 +1,9 @@
 package com.pooke.dominio;
 
 public class PokemonSpecial extends Pokemon {
-    public PokemonSpecial(String nome, int nivel, int hpMax, int hpAtual, int ataque, int defesa, int velocidade) {
-        super(nome, nivel, hpMax, hpAtual, ataque, defesa, velocidade);
+
+    public PokemonSpecial(String nome, Tipo tipoPrimario, Tipo tipoSecundario, int nivel, int hpMax, int hpAtual, int ataque, int defesa, int velocidade) {
+        super(nome, tipoPrimario, tipoSecundario, nivel, hpMax, hpAtual, ataque, defesa, velocidade);
     }
 
     public void subirDeNivel(){

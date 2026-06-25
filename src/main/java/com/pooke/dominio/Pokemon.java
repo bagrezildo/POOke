@@ -1,35 +1,45 @@
 package com.pooke.dominio;
 
 import com.pooke.excecoes.AtributoInexistente;
-import com.pooke.ui.Printer;
+import com.pooke.excecoes.GolpeNaoAprendido;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Pokemon {
     protected String nome;
+    protected Tipo tipoPrimario;
+    protected Tipo tipoSecundario;
     protected int nivel;
     protected int hpMax;
     protected int hpAtual;
     protected int ataque;
     protected int defesa;
     protected int velocidade;
-    protected List<Golpe> golpes;
+    protected List<Golpe> golpesAprendidos;
+    protected List<Golpe> golpesEquipados;
 
-    public Pokemon(String nome, int nivel, int hpMax, int hpAtual, int ataque, int defesa, int velocidade) {
+    public Pokemon(String nome, Tipo tipoPrimario, Tipo tipoSecundario, int hpMax, int hpAtual, int ataque, int defesa, int velocidade) {
         this.nome = nome;
-        this.nivel = nivel;
+        this.tipoPrimario = tipoPrimario;
+        this.tipoSecundario = tipoSecundario;
+        this.nivel = 1;
         this.hpMax = hpMax;
         this.hpAtual = hpAtual;
         this.ataque = ataque;
         this.defesa = defesa;
         this.velocidade = velocidade;
-        this.golpes = new ArrayList<>();
+        this.golpesAprendidos = new ArrayList<>();
+        this.golpesEquipados = new ArrayList<>();
     }
 
     public String getNome() {
         return nome;
     }
+
+    public Tipo getTipoPrimario() {return tipoPrimario;}
+
+    public Tipo getTipoSecundario() {return tipoSecundario;}
 
     public int getHpMax() {
         return hpMax;
@@ -50,6 +60,10 @@ public abstract class Pokemon {
     public int getVelocidade() {
         return velocidade;
     }
+
+    public List<Golpe> getGolpesAprendidos() { return golpesAprendidos; }
+    public List<Golpe> getGolpesEquipados() { return golpesEquipados; }
+
 
     public void receberDano(int dano){
         this.hpAtual = this.getHpAtual() - dano;
@@ -93,6 +107,26 @@ public abstract class Pokemon {
             default -> throw new AtributoInexistente("Não tem como reduzir o que não existe!");
 
         }
+    }
+
+    public void aprenderGolpe(Golpe golpe) {
+        this.golpesAprendidos.add(golpe);
+
+        if (this.golpesEquipados.size() < 4) {
+            this.golpesEquipados.add(golpe);
+        }
+    }
+
+    public void equiparGolpe(Golpe golpeEquipado, Golpe golpeRemovido) {
+        if (!this.golpesEquipados.contains(golpeEquipado)) {
+            throw new GolpeNaoAprendido("O Pokémon não conhece ese golpe!");
+        }
+
+        if (this.golpesEquipados.contains(golpeRemovido)) {
+            this.golpesEquipados.remove(golpeRemovido);
+        }
+
+        this.golpesEquipados.add(golpeEquipado);
     }
 
     public abstract void subirDeNivel();

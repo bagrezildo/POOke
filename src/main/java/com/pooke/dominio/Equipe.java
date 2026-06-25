@@ -36,4 +36,13 @@ public class Equipe {
         }
         return null;
     }
+
+    public boolean equipeDesmaiada() {
+        for(Pokemon membro: pokemons){
+            if (membro.getHpAtual() > 0){
+                return false;
+            }
+        }
+        return true;
+    }
 }

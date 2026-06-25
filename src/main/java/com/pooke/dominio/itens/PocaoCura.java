@@ -22,4 +22,6 @@ public class PocaoCura implements Item {
 
         alvo.receberCura(this.poderCura);
     }
+
+
 }

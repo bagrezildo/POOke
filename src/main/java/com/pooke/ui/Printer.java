@@ -1,5 +1,6 @@
 package com.pooke.ui;
 
+import com.pooke.dominio.Golpe;
 import com.pooke.dominio.Pokemon;
 
 public class Printer {
@@ -14,8 +15,11 @@ public class Printer {
         System.out.println("=======================================================");
     }
 
-    public static void narrarDano(Pokemon pokemon, int dano){
-        System.out.println(pokemon.getNome() + " recebeu " + dano + "de dano!");
+    public static void narrarAtaque(Pokemon atacante, Golpe golpe, Pokemon defensor, int dano){
+        System.out.println();
+        System.out.println(atacante.getNome() + " usou " + golpe.getNome() + "!");
+        System.out.println(defensor.getNome() + "recebeu " + dano + "de dano!");
+
     }
 
     public static void narrarDesmaio(Pokemon pokemon){

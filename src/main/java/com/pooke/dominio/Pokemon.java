@@ -19,13 +19,13 @@ public abstract class Pokemon {
     protected List<Golpe> golpesAprendidos;
     protected List<Golpe> golpesEquipados;
 
-    public Pokemon(String nome, Tipo tipoPrimario, Tipo tipoSecundario, int hpMax, int hpAtual, int ataque, int defesa, int velocidade) {
+    public Pokemon(String nome, Tipo tipoPrimario, Tipo tipoSecundario, int hpMax, int ataque, int defesa, int velocidade) {
         this.nome = nome;
         this.tipoPrimario = tipoPrimario;
         this.tipoSecundario = tipoSecundario;
         this.nivel = 1;
         this.hpMax = hpMax;
-        this.hpAtual = hpAtual;
+        this.hpAtual = hpMax;
         this.ataque = ataque;
         this.defesa = defesa;
         this.velocidade = velocidade;
@@ -127,6 +127,30 @@ public abstract class Pokemon {
         }
 
         this.golpesEquipados.add(golpeEquipado);
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+
+        sb.append(String.format("#%s (Nv. %d)", nome, nivel));
+        if (hpAtual <= 0) sb.append(String.format(" [DESMAIADO]"));
+        if(tipoSecundario != null){
+            sb.append(String.format(" - %s | %s", tipoPrimario, tipoSecundario));
+        } else{
+            sb.append(String.format(" - %s", tipoPrimario));
+        }
+        sb.append("\n");
+        sb.append(String.format("\tHP: %d/%d | Atk: %d | Def: %d | Vel: %d", hpAtual, hpMax, ataque, defesa, velocidade ));
+        sb.append("\n\tGolpes: \n");
+        if (golpesEquipados.isEmpty()) {
+            sb.append("\n Nenhum golpe equipado!");
+        } else{
+            for  (Golpe golpe : golpesEquipados) {
+                sb.append("\t").append(golpe.toString());
+            }
+        }
+        return sb.toString();
     }
 
     public abstract void subirDeNivel();

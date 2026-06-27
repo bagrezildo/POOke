@@ -45,4 +45,6 @@ public class Equipe {
         }
         return true;
     }
+
+    public List<Pokemon> getPokemons() { return this.pokemons;}
 }

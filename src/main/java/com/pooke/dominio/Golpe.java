@@ -11,6 +11,13 @@ public class Golpe {
         this.tipo = tipo;
     }
 
+    @Override
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(String.format("[%s - %s]", nome, tipo));
+        return sb.toString();
+    }
+
     public String getNome() {
         return nome;
     }

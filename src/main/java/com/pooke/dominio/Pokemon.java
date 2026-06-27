@@ -20,7 +20,7 @@ public abstract class Pokemon {
     protected List<Golpe> golpesEquipados;
 
     public Pokemon(String nome, Tipo tipoPrimario, Tipo tipoSecundario, int hpMax, int ataque, int defesa, int velocidade) {
-        this.nome = nome;
+        this.nome = formataNome(nome);
         this.tipoPrimario = tipoPrimario;
         this.tipoSecundario = tipoSecundario;
         this.nivel = 1;
@@ -151,6 +151,29 @@ public abstract class Pokemon {
             }
         }
         return sb.toString();
+    }
+
+    public static String formataNome(String input) {
+        if (input == null || input.isEmpty()) {
+            return input;
+        }
+
+        String[] words = input.split("-");
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < words.length; i++) {
+            String word = words[i];
+            if (!word.isEmpty()) {
+                result.append(word.substring(0, 1).toUpperCase())
+                        .append(word.substring(1));
+
+                if (i < words.length - 1) {
+                    result.append(" ");
+                }
+            }
+        }
+
+        return result.toString();
     }
 
     public abstract void subirDeNivel();

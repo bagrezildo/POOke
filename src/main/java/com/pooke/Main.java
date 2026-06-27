@@ -2,14 +2,13 @@ package com.pooke;
 
 import com.pooke.aplicacao.EstadoSessao;
 import com.pooke.aplicacao.Sessao;
-import com.pooke.dominio.Golpe;
-import com.pooke.dominio.PokemonSpecial;
-import com.pooke.dominio.Tipo;
-import com.pooke.dominio.Treinador;
+import com.pooke.apresentacao.RepositorioPokemon;
+import com.pooke.dominio.*;
 import com.pooke.dominio.itens.PocaoCura;
 import com.pooke.excecoes.SessaoInvalidaException;
-import com.pooke.ui.Printer;
+import com.pooke.util.Printer;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -18,15 +17,11 @@ public class Main {
 
         Scanner scanner =  new Scanner(System.in);
 
+        RepositorioPokemon repositorio = new RepositorioPokemon();
+        repositorio.inicializarBanco();
+
         Treinador treinador = new Treinador("Matri");
 
-        PokemonSpecial pikachu = new PokemonSpecial("Pikachu", Tipo.ELECTRIC, null, 25, 10, 10, 12);
-        pikachu.getGolpesEquipados().add(new Golpe("Choque do Trovão", 40, Tipo.ELECTRIC));
-        treinador.getEquipe().adicionarPokemon(pikachu);
-
-        PokemonSpecial charmander = new PokemonSpecial("Charmander", Tipo.FIRE, null, 22, 11, 11, 11);
-        charmander.getGolpesEquipados().add(new Golpe("Brasas", 40, Tipo.FIRE));
-        treinador.getEquipe().adicionarPokemon(charmander);
         treinador.adicionarItem(new PocaoCura(20));
         treinador.adicionarItem(new PocaoCura(20));
         Sessao sessao = new Sessao(treinador);
@@ -35,6 +30,20 @@ public class Main {
             try {
                 switch (sessao.getEstadoAtual()) {
                     case PREPARACAO:
+                        List<Pokemon> iniciais = repositorio.sortearIniciais(3);
+                        Printer.imprimirIniciais(iniciais);
+
+                        Printer.imprimir("Escolha um pokémon inicial: ");
+                        int escolha = Integer.parseInt(scanner.nextLine());
+                        if (escolha < 1 || escolha > iniciais.size()) {
+                            Printer.imprimir("Opção inválida! Escolha um dos três iniciais disponíveis!");
+                            continue;
+                        }
+
+                        Pokemon escolhido = iniciais.get(escolha - 1);
+                        treinador.getEquipe().adicionarPokemon(escolhido);
+
+                        Printer.imprimir("Você escolheu o " +escolhido.getNome() + ", boa jornada!");
                         sessao.preparar();
                         break;
                     case EXPLORACAO:

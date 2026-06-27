@@ -1,9 +1,10 @@
-package com.pooke.ui;
+package com.pooke.util;
 
-import com.pooke.dominio.Equipe;
 import com.pooke.dominio.Golpe;
 import com.pooke.dominio.Pokemon;
 import com.pooke.dominio.Treinador;
+
+import java.util.List;
 
 public class Printer {
 
@@ -57,4 +58,18 @@ public class Printer {
         }
     }
 
+    public static void imprimirIniciais(List<Pokemon> pokemons) {
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("========== INICIAIS ==========");
+        sb.append("\n");
+        sb.append("\n");
+        for (Pokemon p : pokemons) {
+            sb.append("[").append(pokemons.indexOf(p) + 1).append("]");
+            sb.append(" ").append(p.toString());
+            sb.append("\n");
+        }
+
+        System.out.println(sb.toString());
+    }
 }

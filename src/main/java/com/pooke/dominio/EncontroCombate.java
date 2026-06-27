@@ -1,7 +1,6 @@
 package com.pooke.dominio;
 
 import com.pooke.aplicacao.MotorBatalha;
-import com.pooke.ui.Printer;
 
 public class EncontroCombate extends Encontro {
     private Equipe inimigos;

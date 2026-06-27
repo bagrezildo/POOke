@@ -1,4 +1,4 @@
-package com.pooke._old.dominio.persistencia.dto;
+package com.pooke.apresentacao.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -17,26 +17,24 @@ public class PokemonApiDto {
 
     public static class StatWrapper {
         @JsonProperty("base_stat")
-        public int baseStat;
+        public int base_stat;
         public NamedResourceDto stat;
     }
 
     public static class MoveWrapper {
         public NamedResourceDto move;
 
-        // Campo simplificado que vamos usar no serviço!
-        public Integer levelLearnedAt;
+        public Integer level_learned_at;
 
-        // O Jackson vai chamar esse método automaticamente ao ver "version_group_details" no JSON
         @JsonProperty("version_group_details")
         public void unpackVersionGroupDetails(List<VersionGroupDetail> details) {
             if (details == null) return;
 
             for (VersionGroupDetail detalhe : details) {
                 if (detalhe.moveLearnMethod != null && "level-up".equals(detalhe.moveLearnMethod.name)) {
-                    if (detalhe.levelLearnedAt != null && detalhe.levelLearnedAt > 0) {
-                        this.levelLearnedAt = detalhe.levelLearnedAt;
-                        break; // Achou o primeiro level-up válido? Para de procurar e descarta o resto.
+                    if (detalhe.level_learned_at != null && detalhe.level_learned_at > 0) {
+                        this.level_learned_at = detalhe.level_learned_at;
+                        break;
                     }
                 }
             }
@@ -45,7 +43,7 @@ public class PokemonApiDto {
 
     public static class VersionGroupDetail {
         @JsonProperty("level_learned_at")
-        public Integer levelLearnedAt;
+        public Integer level_learned_at;
 
         @JsonProperty("move_learn_method")
         public NamedResourceDto moveLearnMethod;

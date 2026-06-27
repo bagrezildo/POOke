@@ -1,6 +1,6 @@
 package com.pooke.dominio;
 
-import com.pooke.ui.Printer;
+import com.pooke.util.Printer;
 
 public class EncontroAcampamento extends Encontro{
     public void processar(Treinador jogador) {

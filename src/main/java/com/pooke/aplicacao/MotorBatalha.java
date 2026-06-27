@@ -6,7 +6,7 @@ import com.pooke.dominio.Pokemon;
 import com.pooke.dominio.Treinador;
 import com.pooke.dominio.itens.PocaoCura;
 import com.pooke.excecoes.EquipeDerrotadaException;
-import com.pooke.ui.Printer;
+import com.pooke.util.Printer;
 
 import java.util.List;
 import java.util.Random;

@@ -4,7 +4,7 @@ import com.pooke.dominio.*;
 import com.pooke.dominio.itens.Item;
 import com.pooke.excecoes.EquipeDerrotadaException;
 import com.pooke.excecoes.SessaoInvalidaException;
-import com.pooke.ui.Printer;
+import com.pooke.util.Printer;
 
 public class Sessao {
     EstadoSessao estadoAtual;
@@ -71,7 +71,7 @@ public class Sessao {
         item.aplicar(alvo);
         this.treinador.removerItem(item);
     }
-    // Método que o Main chama quando o usuário quer trocar um golpe
+
     public void acamparEquiparGolpe(Pokemon pokemon, Golpe novoGolpe, Golpe antigoGolpe) {
         if (this.estadoAtual != EstadoSessao.NO_ACAMPAMENTO) {
             throw new SessaoInvalidaException("Tem hora e lugar para tudo, você não pode equiper golpes isso agora.");

@@ -1,0 +1,3749 @@
+[ {
+  "nome" : "Pound",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Karate Chop",
+  "poderBase" : 50,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Double Slap",
+  "poderBase" : 15,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Comet Punch",
+  "poderBase" : 18,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Mega Punch",
+  "poderBase" : 80,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Pay Day",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Fire Punch",
+  "poderBase" : 75,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Ice Punch",
+  "poderBase" : 75,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Thunder Punch",
+  "poderBase" : 75,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Scratch",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Vice Grip",
+  "poderBase" : 55,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Guillotine",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Razor Wind",
+  "poderBase" : 80,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Swords Dance",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Cut",
+  "poderBase" : 50,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Gust",
+  "poderBase" : 40,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Wing Attack",
+  "poderBase" : 60,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Whirlwind",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Fly",
+  "poderBase" : 90,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Bind",
+  "poderBase" : 15,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Slam",
+  "poderBase" : 80,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Vine Whip",
+  "poderBase" : 45,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Stomp",
+  "poderBase" : 65,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Double Kick",
+  "poderBase" : 30,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Mega Kick",
+  "poderBase" : 120,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Jump Kick",
+  "poderBase" : 100,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Rolling Kick",
+  "poderBase" : 60,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Sand Attack",
+  "poderBase" : 40,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Headbutt",
+  "poderBase" : 70,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Horn Attack",
+  "poderBase" : 65,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Fury Attack",
+  "poderBase" : 15,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Horn Drill",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Tackle",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Body Slam",
+  "poderBase" : 85,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Wrap",
+  "poderBase" : 15,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Take Down",
+  "poderBase" : 90,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Thrash",
+  "poderBase" : 120,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Double Edge",
+  "poderBase" : 120,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Tail Whip",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Poison Sting",
+  "poderBase" : 15,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Twineedle",
+  "poderBase" : 25,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Pin Missile",
+  "poderBase" : 25,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Leer",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Bite",
+  "poderBase" : 60,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Growl",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Roar",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Sing",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Supersonic",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Sonic Boom",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Disable",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Acid",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Ember",
+  "poderBase" : 40,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Flamethrower",
+  "poderBase" : 90,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Mist",
+  "poderBase" : 40,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Water Gun",
+  "poderBase" : 40,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Hydro Pump",
+  "poderBase" : 110,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Surf",
+  "poderBase" : 90,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Ice Beam",
+  "poderBase" : 90,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Blizzard",
+  "poderBase" : 110,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Psybeam",
+  "poderBase" : 65,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Bubble Beam",
+  "poderBase" : 65,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Aurora Beam",
+  "poderBase" : 65,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Hyper Beam",
+  "poderBase" : 150,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Peck",
+  "poderBase" : 35,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Drill Peck",
+  "poderBase" : 80,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Submission",
+  "poderBase" : 80,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Low Kick",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Counter",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Seismic Toss",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Strength",
+  "poderBase" : 80,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Absorb",
+  "poderBase" : 20,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Mega Drain",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Leech Seed",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Growth",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Razor Leaf",
+  "poderBase" : 55,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Solar Beam",
+  "poderBase" : 120,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Poison Powder",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Stun Spore",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Sleep Powder",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Petal Dance",
+  "poderBase" : 120,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "String Shot",
+  "poderBase" : 40,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Dragon Rage",
+  "poderBase" : 40,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Fire Spin",
+  "poderBase" : 35,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Thunder Shock",
+  "poderBase" : 40,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Thunderbolt",
+  "poderBase" : 90,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Thunder Wave",
+  "poderBase" : 40,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Thunder",
+  "poderBase" : 110,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Rock Throw",
+  "poderBase" : 50,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Earthquake",
+  "poderBase" : 100,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Fissure",
+  "poderBase" : 40,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Dig",
+  "poderBase" : 80,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Toxic",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Confusion",
+  "poderBase" : 50,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Psychic",
+  "poderBase" : 90,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Hypnosis",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Meditate",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Agility",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Quick Attack",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Rage",
+  "poderBase" : 20,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Teleport",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Night Shade",
+  "poderBase" : 40,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Mimic",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Screech",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Double Team",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Recover",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Harden",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Minimize",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Smokescreen",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Confuse Ray",
+  "poderBase" : 40,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Withdraw",
+  "poderBase" : 40,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Defense Curl",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Barrier",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Light Screen",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Haze",
+  "poderBase" : 40,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Reflect",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Focus Energy",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Bide",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Metronome",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Mirror Move",
+  "poderBase" : 40,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Self Destruct",
+  "poderBase" : 200,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Egg Bomb",
+  "poderBase" : 100,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Lick",
+  "poderBase" : 30,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Smog",
+  "poderBase" : 30,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Sludge",
+  "poderBase" : 65,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Bone Club",
+  "poderBase" : 65,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Fire Blast",
+  "poderBase" : 110,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Waterfall",
+  "poderBase" : 80,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Clamp",
+  "poderBase" : 35,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Swift",
+  "poderBase" : 60,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Skull Bash",
+  "poderBase" : 130,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Spike Cannon",
+  "poderBase" : 20,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Constrict",
+  "poderBase" : 10,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Amnesia",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Kinesis",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Soft Boiled",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "High Jump Kick",
+  "poderBase" : 130,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Glare",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Dream Eater",
+  "poderBase" : 100,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Poison Gas",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Barrage",
+  "poderBase" : 15,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Leech Life",
+  "poderBase" : 80,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Lovely Kiss",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Sky Attack",
+  "poderBase" : 140,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Transform",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Bubble",
+  "poderBase" : 40,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Dizzy Punch",
+  "poderBase" : 70,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Spore",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Flash",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Psywave",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Splash",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Acid Armor",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Crabhammer",
+  "poderBase" : 100,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Explosion",
+  "poderBase" : 250,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Fury Swipes",
+  "poderBase" : 18,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Bonemerang",
+  "poderBase" : 50,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Rest",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Rock Slide",
+  "poderBase" : 75,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Hyper Fang",
+  "poderBase" : 80,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Sharpen",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Conversion",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Tri Attack",
+  "poderBase" : 80,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Super Fang",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Slash",
+  "poderBase" : 70,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Substitute",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Struggle",
+  "poderBase" : 50,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Sketch",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Triple Kick",
+  "poderBase" : 10,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Thief",
+  "poderBase" : 60,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Spider Web",
+  "poderBase" : 40,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Mind Reader",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Nightmare",
+  "poderBase" : 40,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Flame Wheel",
+  "poderBase" : 60,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Snore",
+  "poderBase" : 50,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Curse",
+  "poderBase" : 40,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Flail",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Conversion 2",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Aeroblast",
+  "poderBase" : 100,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Cotton Spore",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Reversal",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Spite",
+  "poderBase" : 40,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Powder Snow",
+  "poderBase" : 40,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Protect",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Mach Punch",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Scary Face",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Feint Attack",
+  "poderBase" : 60,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Sweet Kiss",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Belly Drum",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Sludge Bomb",
+  "poderBase" : 90,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Mud Slap",
+  "poderBase" : 20,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Octazooka",
+  "poderBase" : 65,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Spikes",
+  "poderBase" : 40,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Zap Cannon",
+  "poderBase" : 120,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Foresight",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Destiny Bond",
+  "poderBase" : 40,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Perish Song",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Icy Wind",
+  "poderBase" : 55,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Detect",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Bone Rush",
+  "poderBase" : 25,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Lock On",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Outrage",
+  "poderBase" : 120,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Sandstorm",
+  "poderBase" : 40,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Giga Drain",
+  "poderBase" : 75,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Endure",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Charm",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Rollout",
+  "poderBase" : 30,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "False Swipe",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Swagger",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Milk Drink",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Spark",
+  "poderBase" : 65,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Fury Cutter",
+  "poderBase" : 40,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Steel Wing",
+  "poderBase" : 70,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Mean Look",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Attract",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Sleep Talk",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Heal Bell",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Return",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Present",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Frustration",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Safeguard",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Pain Split",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Sacred Fire",
+  "poderBase" : 100,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Magnitude",
+  "poderBase" : 40,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Dynamic Punch",
+  "poderBase" : 100,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Megahorn",
+  "poderBase" : 120,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Dragon Breath",
+  "poderBase" : 60,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Baton Pass",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Encore",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Pursuit",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Rapid Spin",
+  "poderBase" : 50,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Sweet Scent",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Iron Tail",
+  "poderBase" : 100,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Metal Claw",
+  "poderBase" : 50,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Vital Throw",
+  "poderBase" : 70,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Morning Sun",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Synthesis",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Moonlight",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Hidden Power",
+  "poderBase" : 60,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Cross Chop",
+  "poderBase" : 100,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Twister",
+  "poderBase" : 40,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Rain Dance",
+  "poderBase" : 40,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Sunny Day",
+  "poderBase" : 40,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Crunch",
+  "poderBase" : 80,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Mirror Coat",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Psych Up",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Extreme Speed",
+  "poderBase" : 80,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Ancient Power",
+  "poderBase" : 60,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Shadow Ball",
+  "poderBase" : 80,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Future Sight",
+  "poderBase" : 120,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Rock Smash",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Whirlpool",
+  "poderBase" : 35,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Beat Up",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Fake Out",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Uproar",
+  "poderBase" : 90,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Stockpile",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Spit Up",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Swallow",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Heat Wave",
+  "poderBase" : 95,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Hail",
+  "poderBase" : 40,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Torment",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Flatter",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Will O Wisp",
+  "poderBase" : 40,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Memento",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Facade",
+  "poderBase" : 70,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Focus Punch",
+  "poderBase" : 150,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Smelling Salts",
+  "poderBase" : 70,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Follow Me",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Nature Power",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Charge",
+  "poderBase" : 40,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Taunt",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Helping Hand",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Trick",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Role Play",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Wish",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Assist",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Ingrain",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Superpower",
+  "poderBase" : 120,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Magic Coat",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Recycle",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Revenge",
+  "poderBase" : 60,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Brick Break",
+  "poderBase" : 75,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Yawn",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Knock Off",
+  "poderBase" : 65,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Endeavor",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Eruption",
+  "poderBase" : 150,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Skill Swap",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Imprison",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Refresh",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Grudge",
+  "poderBase" : 40,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Snatch",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Secret Power",
+  "poderBase" : 70,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Dive",
+  "poderBase" : 80,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Arm Thrust",
+  "poderBase" : 15,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Camouflage",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Tail Glow",
+  "poderBase" : 40,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Luster Purge",
+  "poderBase" : 95,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Mist Ball",
+  "poderBase" : 95,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Feather Dance",
+  "poderBase" : 40,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Teeter Dance",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Blaze Kick",
+  "poderBase" : 85,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Mud Sport",
+  "poderBase" : 40,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Ice Ball",
+  "poderBase" : 30,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Needle Arm",
+  "poderBase" : 60,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Slack Off",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Hyper Voice",
+  "poderBase" : 90,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Poison Fang",
+  "poderBase" : 50,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Crush Claw",
+  "poderBase" : 75,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Blast Burn",
+  "poderBase" : 150,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Hydro Cannon",
+  "poderBase" : 150,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Meteor Mash",
+  "poderBase" : 90,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Astonish",
+  "poderBase" : 30,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Weather Ball",
+  "poderBase" : 50,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Aromatherapy",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Fake Tears",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Air Cutter",
+  "poderBase" : 60,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Overheat",
+  "poderBase" : 130,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Odor Sleuth",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Rock Tomb",
+  "poderBase" : 60,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Silver Wind",
+  "poderBase" : 60,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Metal Sound",
+  "poderBase" : 40,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Grass Whistle",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Tickle",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Cosmic Power",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Water Spout",
+  "poderBase" : 150,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Signal Beam",
+  "poderBase" : 75,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Shadow Punch",
+  "poderBase" : 60,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Extrasensory",
+  "poderBase" : 80,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Sky Uppercut",
+  "poderBase" : 85,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Sand Tomb",
+  "poderBase" : 35,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Sheer Cold",
+  "poderBase" : 40,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Muddy Water",
+  "poderBase" : 90,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Bullet Seed",
+  "poderBase" : 25,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Aerial Ace",
+  "poderBase" : 60,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Icicle Spear",
+  "poderBase" : 25,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Iron Defense",
+  "poderBase" : 40,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Block",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Howl",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Dragon Claw",
+  "poderBase" : 80,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Frenzy Plant",
+  "poderBase" : 150,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Bulk Up",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Bounce",
+  "poderBase" : 85,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Mud Shot",
+  "poderBase" : 55,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Poison Tail",
+  "poderBase" : 50,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Covet",
+  "poderBase" : 60,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Volt Tackle",
+  "poderBase" : 120,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Magical Leaf",
+  "poderBase" : 60,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Water Sport",
+  "poderBase" : 40,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Calm Mind",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Leaf Blade",
+  "poderBase" : 90,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Dragon Dance",
+  "poderBase" : 40,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Rock Blast",
+  "poderBase" : 25,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Shock Wave",
+  "poderBase" : 60,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Water Pulse",
+  "poderBase" : 60,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Doom Desire",
+  "poderBase" : 140,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Psycho Boost",
+  "poderBase" : 140,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Roost",
+  "poderBase" : 40,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Gravity",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Miracle Eye",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Wake Up Slap",
+  "poderBase" : 70,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Hammer Arm",
+  "poderBase" : 100,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Gyro Ball",
+  "poderBase" : 40,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Healing Wish",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Brine",
+  "poderBase" : 65,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Natural Gift",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Feint",
+  "poderBase" : 30,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Pluck",
+  "poderBase" : 60,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Tailwind",
+  "poderBase" : 40,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Acupressure",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Metal Burst",
+  "poderBase" : 40,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "U Turn",
+  "poderBase" : 70,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Close Combat",
+  "poderBase" : 120,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Payback",
+  "poderBase" : 50,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Assurance",
+  "poderBase" : 60,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Embargo",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Fling",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Psycho Shift",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Trump Card",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Heal Block",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Wring Out",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Power Trick",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Gastro Acid",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Lucky Chant",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Me First",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Copycat",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Power Swap",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Guard Swap",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Punishment",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Last Resort",
+  "poderBase" : 140,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Worry Seed",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Sucker Punch",
+  "poderBase" : 70,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Toxic Spikes",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Heart Swap",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Aqua Ring",
+  "poderBase" : 40,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Magnet Rise",
+  "poderBase" : 40,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Flare Blitz",
+  "poderBase" : 120,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Force Palm",
+  "poderBase" : 60,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Aura Sphere",
+  "poderBase" : 80,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Rock Polish",
+  "poderBase" : 40,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Poison Jab",
+  "poderBase" : 80,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Dark Pulse",
+  "poderBase" : 80,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Night Slash",
+  "poderBase" : 70,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Aqua Tail",
+  "poderBase" : 90,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Seed Bomb",
+  "poderBase" : 80,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Air Slash",
+  "poderBase" : 75,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "X Scissor",
+  "poderBase" : 80,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Bug Buzz",
+  "poderBase" : 90,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Dragon Pulse",
+  "poderBase" : 85,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Dragon Rush",
+  "poderBase" : 100,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Power Gem",
+  "poderBase" : 80,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Drain Punch",
+  "poderBase" : 75,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Vacuum Wave",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Focus Blast",
+  "poderBase" : 120,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Energy Ball",
+  "poderBase" : 90,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Brave Bird",
+  "poderBase" : 120,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Earth Power",
+  "poderBase" : 90,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Switcheroo",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Giga Impact",
+  "poderBase" : 150,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Nasty Plot",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Bullet Punch",
+  "poderBase" : 40,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Avalanche",
+  "poderBase" : 60,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Ice Shard",
+  "poderBase" : 40,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Shadow Claw",
+  "poderBase" : 70,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Thunder Fang",
+  "poderBase" : 65,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Ice Fang",
+  "poderBase" : 65,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Fire Fang",
+  "poderBase" : 65,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Shadow Sneak",
+  "poderBase" : 40,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Mud Bomb",
+  "poderBase" : 65,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Psycho Cut",
+  "poderBase" : 70,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Zen Headbutt",
+  "poderBase" : 80,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Mirror Shot",
+  "poderBase" : 65,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Flash Cannon",
+  "poderBase" : 80,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Rock Climb",
+  "poderBase" : 90,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Defog",
+  "poderBase" : 40,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Trick Room",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Draco Meteor",
+  "poderBase" : 130,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Discharge",
+  "poderBase" : 80,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Lava Plume",
+  "poderBase" : 80,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Leaf Storm",
+  "poderBase" : 130,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Power Whip",
+  "poderBase" : 120,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Rock Wrecker",
+  "poderBase" : 150,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Cross Poison",
+  "poderBase" : 70,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Gunk Shot",
+  "poderBase" : 120,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Iron Head",
+  "poderBase" : 80,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Magnet Bomb",
+  "poderBase" : 60,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Stone Edge",
+  "poderBase" : 100,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Captivate",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Stealth Rock",
+  "poderBase" : 40,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Grass Knot",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Chatter",
+  "poderBase" : 65,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Judgment",
+  "poderBase" : 100,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Bug Bite",
+  "poderBase" : 60,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Charge Beam",
+  "poderBase" : 50,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Wood Hammer",
+  "poderBase" : 120,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Aqua Jet",
+  "poderBase" : 40,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Attack Order",
+  "poderBase" : 90,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Defend Order",
+  "poderBase" : 40,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Heal Order",
+  "poderBase" : 40,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Head Smash",
+  "poderBase" : 150,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Double Hit",
+  "poderBase" : 35,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Roar Of Time",
+  "poderBase" : 150,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Spacial Rend",
+  "poderBase" : 100,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Lunar Dance",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Crush Grip",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Magma Storm",
+  "poderBase" : 100,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Dark Void",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Seed Flare",
+  "poderBase" : 120,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Ominous Wind",
+  "poderBase" : 60,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Shadow Force",
+  "poderBase" : 120,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Hone Claws",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Wide Guard",
+  "poderBase" : 40,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Guard Split",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Power Split",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Wonder Room",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Psyshock",
+  "poderBase" : 80,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Venoshock",
+  "poderBase" : 65,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Autotomize",
+  "poderBase" : 40,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Rage Powder",
+  "poderBase" : 40,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Telekinesis",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Magic Room",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Smack Down",
+  "poderBase" : 50,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Storm Throw",
+  "poderBase" : 60,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Flame Burst",
+  "poderBase" : 70,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Sludge Wave",
+  "poderBase" : 95,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Quiver Dance",
+  "poderBase" : 40,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Heavy Slam",
+  "poderBase" : 40,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Synchronoise",
+  "poderBase" : 120,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Electro Ball",
+  "poderBase" : 40,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Soak",
+  "poderBase" : 40,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Flame Charge",
+  "poderBase" : 50,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Coil",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Low Sweep",
+  "poderBase" : 65,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Acid Spray",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Foul Play",
+  "poderBase" : 95,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Simple Beam",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Entrainment",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "After You",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Round",
+  "poderBase" : 60,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Echoed Voice",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Chip Away",
+  "poderBase" : 70,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Clear Smog",
+  "poderBase" : 50,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Stored Power",
+  "poderBase" : 20,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Quick Guard",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Ally Switch",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Scald",
+  "poderBase" : 80,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Shell Smash",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Heal Pulse",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Hex",
+  "poderBase" : 65,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Sky Drop",
+  "poderBase" : 60,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Shift Gear",
+  "poderBase" : 40,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Circle Throw",
+  "poderBase" : 60,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Incinerate",
+  "poderBase" : 60,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Quash",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Acrobatics",
+  "poderBase" : 55,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Reflect Type",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Retaliate",
+  "poderBase" : 70,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Final Gambit",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Bestow",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Inferno",
+  "poderBase" : 100,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Water Pledge",
+  "poderBase" : 80,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Fire Pledge",
+  "poderBase" : 80,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Grass Pledge",
+  "poderBase" : 80,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Volt Switch",
+  "poderBase" : 70,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Struggle Bug",
+  "poderBase" : 50,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Bulldoze",
+  "poderBase" : 60,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Frost Breath",
+  "poderBase" : 60,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Dragon Tail",
+  "poderBase" : 60,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Work Up",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Electroweb",
+  "poderBase" : 55,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Wild Charge",
+  "poderBase" : 90,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Drill Run",
+  "poderBase" : 80,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Dual Chop",
+  "poderBase" : 40,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Heart Stamp",
+  "poderBase" : 60,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Horn Leech",
+  "poderBase" : 75,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Sacred Sword",
+  "poderBase" : 90,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Razor Shell",
+  "poderBase" : 75,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Heat Crash",
+  "poderBase" : 40,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Leaf Tornado",
+  "poderBase" : 65,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Steamroller",
+  "poderBase" : 65,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Cotton Guard",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Night Daze",
+  "poderBase" : 85,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Psystrike",
+  "poderBase" : 100,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Tail Slap",
+  "poderBase" : 25,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Hurricane",
+  "poderBase" : 110,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Head Charge",
+  "poderBase" : 120,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Gear Grind",
+  "poderBase" : 50,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Searing Shot",
+  "poderBase" : 100,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Techno Blast",
+  "poderBase" : 120,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Relic Song",
+  "poderBase" : 75,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Secret Sword",
+  "poderBase" : 85,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Glaciate",
+  "poderBase" : 65,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Bolt Strike",
+  "poderBase" : 130,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Blue Flare",
+  "poderBase" : 130,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Fiery Dance",
+  "poderBase" : 80,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Freeze Shock",
+  "poderBase" : 140,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Ice Burn",
+  "poderBase" : 140,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Snarl",
+  "poderBase" : 55,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Icicle Crash",
+  "poderBase" : 85,
+  "tipo" : "ICE"
+}, {
+  "nome" : "V Create",
+  "poderBase" : 180,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Fusion Flare",
+  "poderBase" : 100,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Fusion Bolt",
+  "poderBase" : 100,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Flying Press",
+  "poderBase" : 100,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Mat Block",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Belch",
+  "poderBase" : 120,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Rototiller",
+  "poderBase" : 40,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Sticky Web",
+  "poderBase" : 40,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Fell Stinger",
+  "poderBase" : 50,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Phantom Force",
+  "poderBase" : 90,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Trick Or Treat",
+  "poderBase" : 40,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Noble Roar",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Ion Deluge",
+  "poderBase" : 40,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Parabolic Charge",
+  "poderBase" : 65,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Forests Curse",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Petal Blizzard",
+  "poderBase" : 90,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Freeze Dry",
+  "poderBase" : 70,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Disarming Voice",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Parting Shot",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Topsy Turvy",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Draining Kiss",
+  "poderBase" : 50,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Crafty Shield",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Flower Shield",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Grassy Terrain",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Misty Terrain",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Electrify",
+  "poderBase" : 40,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Play Rough",
+  "poderBase" : 90,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Fairy Wind",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Moonblast",
+  "poderBase" : 95,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Boomburst",
+  "poderBase" : 140,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Fairy Lock",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Kings Shield",
+  "poderBase" : 40,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Play Nice",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Confide",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Diamond Storm",
+  "poderBase" : 100,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Steam Eruption",
+  "poderBase" : 110,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Hyperspace Hole",
+  "poderBase" : 80,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Water Shuriken",
+  "poderBase" : 15,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Mystical Fire",
+  "poderBase" : 75,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Spiky Shield",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Aromatic Mist",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Eerie Impulse",
+  "poderBase" : 40,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Venom Drench",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Powder",
+  "poderBase" : 40,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Geomancy",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Magnetic Flux",
+  "poderBase" : 40,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Happy Hour",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Electric Terrain",
+  "poderBase" : 40,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Dazzling Gleam",
+  "poderBase" : 80,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Celebrate",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Hold Hands",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Baby Doll Eyes",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Nuzzle",
+  "poderBase" : 20,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Hold Back",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Infestation",
+  "poderBase" : 20,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Power Up Punch",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Oblivion Wing",
+  "poderBase" : 80,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Thousand Arrows",
+  "poderBase" : 90,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Thousand Waves",
+  "poderBase" : 90,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Lands Wrath",
+  "poderBase" : 90,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Light Of Ruin",
+  "poderBase" : 140,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Origin Pulse",
+  "poderBase" : 110,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Precipice Blades",
+  "poderBase" : 120,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Dragon Ascent",
+  "poderBase" : 120,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Hyperspace Fury",
+  "poderBase" : 100,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Breakneck Blitz Physical",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Breakneck Blitz Special",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "All Out Pummeling Physical",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "All Out Pummeling Special",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Supersonic Skystrike Physical",
+  "poderBase" : 40,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Supersonic Skystrike Special",
+  "poderBase" : 40,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Acid Downpour Physical",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Acid Downpour Special",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Tectonic Rage Physical",
+  "poderBase" : 40,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Tectonic Rage Special",
+  "poderBase" : 40,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Continental Crush Physical",
+  "poderBase" : 40,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Continental Crush Special",
+  "poderBase" : 40,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Savage Spin Out Physical",
+  "poderBase" : 40,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Savage Spin Out Special",
+  "poderBase" : 40,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Never Ending Nightmare Physical",
+  "poderBase" : 40,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Never Ending Nightmare Special",
+  "poderBase" : 40,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Corkscrew Crash Physical",
+  "poderBase" : 40,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Corkscrew Crash Special",
+  "poderBase" : 40,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Inferno Overdrive Physical",
+  "poderBase" : 40,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Inferno Overdrive Special",
+  "poderBase" : 40,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Hydro Vortex Physical",
+  "poderBase" : 40,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Hydro Vortex Special",
+  "poderBase" : 40,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Bloom Doom Physical",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Bloom Doom Special",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Gigavolt Havoc Physical",
+  "poderBase" : 40,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Gigavolt Havoc Special",
+  "poderBase" : 40,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Shattered Psyche Physical",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Shattered Psyche Special",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Subzero Slammer Physical",
+  "poderBase" : 40,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Subzero Slammer Special",
+  "poderBase" : 40,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Devastating Drake Physical",
+  "poderBase" : 40,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Devastating Drake Special",
+  "poderBase" : 40,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Black Hole Eclipse Physical",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Black Hole Eclipse Special",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Twinkle Tackle Physical",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Twinkle Tackle Special",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Catastropika",
+  "poderBase" : 210,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Shore Up",
+  "poderBase" : 40,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "First Impression",
+  "poderBase" : 90,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Baneful Bunker",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Spirit Shackle",
+  "poderBase" : 80,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Darkest Lariat",
+  "poderBase" : 85,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Sparkling Aria",
+  "poderBase" : 90,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Ice Hammer",
+  "poderBase" : 100,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Floral Healing",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "High Horsepower",
+  "poderBase" : 95,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Strength Sap",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Solar Blade",
+  "poderBase" : 125,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Leafage",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Spotlight",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Toxic Thread",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Laser Focus",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Gear Up",
+  "poderBase" : 40,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Throat Chop",
+  "poderBase" : 80,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Pollen Puff",
+  "poderBase" : 90,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Anchor Shot",
+  "poderBase" : 80,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Psychic Terrain",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Lunge",
+  "poderBase" : 80,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Fire Lash",
+  "poderBase" : 80,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Power Trip",
+  "poderBase" : 20,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Burn Up",
+  "poderBase" : 130,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Speed Swap",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Smart Strike",
+  "poderBase" : 70,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Purify",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Revelation Dance",
+  "poderBase" : 90,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Core Enforcer",
+  "poderBase" : 100,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Trop Kick",
+  "poderBase" : 70,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Instruct",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Beak Blast",
+  "poderBase" : 100,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Clanging Scales",
+  "poderBase" : 110,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Dragon Hammer",
+  "poderBase" : 90,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Brutal Swing",
+  "poderBase" : 60,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Aurora Veil",
+  "poderBase" : 40,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Sinister Arrow Raid",
+  "poderBase" : 180,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Malicious Moonsault",
+  "poderBase" : 180,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Oceanic Operetta",
+  "poderBase" : 195,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Guardian Of Alola",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Soul Stealing 7 Star Strike",
+  "poderBase" : 195,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Stoked Sparksurfer",
+  "poderBase" : 175,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Pulverizing Pancake",
+  "poderBase" : 210,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Extreme Evoboost",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Genesis Supernova",
+  "poderBase" : 185,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Shell Trap",
+  "poderBase" : 150,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Fleur Cannon",
+  "poderBase" : 130,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Psychic Fangs",
+  "poderBase" : 85,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Stomping Tantrum",
+  "poderBase" : 75,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Shadow Bone",
+  "poderBase" : 85,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Accelerock",
+  "poderBase" : 40,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Liquidation",
+  "poderBase" : 85,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Prismatic Laser",
+  "poderBase" : 160,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Spectral Thief",
+  "poderBase" : 90,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Sunsteel Strike",
+  "poderBase" : 100,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Moongeist Beam",
+  "poderBase" : 100,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Tearful Look",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Zing Zap",
+  "poderBase" : 80,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Natures Madness",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Multi Attack",
+  "poderBase" : 120,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "10 000 000 Volt Thunderbolt",
+  "poderBase" : 195,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Mind Blown",
+  "poderBase" : 150,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Plasma Fists",
+  "poderBase" : 100,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Photon Geyser",
+  "poderBase" : 100,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Light That Burns The Sky",
+  "poderBase" : 200,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Searing Sunraze Smash",
+  "poderBase" : 200,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Menacing Moonraze Maelstrom",
+  "poderBase" : 200,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Lets Snuggle Forever",
+  "poderBase" : 190,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Splintered Stormshards",
+  "poderBase" : 190,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Clangorous Soulblaze",
+  "poderBase" : 185,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Zippy Zap",
+  "poderBase" : 80,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Splishy Splash",
+  "poderBase" : 90,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Floaty Fall",
+  "poderBase" : 90,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Pika Papow",
+  "poderBase" : 40,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Bouncy Bubble",
+  "poderBase" : 60,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Buzzy Buzz",
+  "poderBase" : 60,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Sizzly Slide",
+  "poderBase" : 60,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Glitzy Glow",
+  "poderBase" : 80,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Baddy Bad",
+  "poderBase" : 80,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Sappy Seed",
+  "poderBase" : 100,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Freezy Frost",
+  "poderBase" : 100,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Sparkly Swirl",
+  "poderBase" : 120,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Veevee Volley",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Double Iron Bash",
+  "poderBase" : 60,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Max Guard",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Dynamax Cannon",
+  "poderBase" : 100,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Snipe Shot",
+  "poderBase" : 80,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Jaw Lock",
+  "poderBase" : 80,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Stuff Cheeks",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "No Retreat",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Tar Shot",
+  "poderBase" : 40,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Magic Powder",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Dragon Darts",
+  "poderBase" : 50,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Teatime",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Octolock",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Bolt Beak",
+  "poderBase" : 85,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Fishious Rend",
+  "poderBase" : 85,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Court Change",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Max Flare",
+  "poderBase" : 100,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Max Flutterby",
+  "poderBase" : 10,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Max Lightning",
+  "poderBase" : 10,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Max Strike",
+  "poderBase" : 10,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Max Knuckle",
+  "poderBase" : 10,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Max Phantasm",
+  "poderBase" : 10,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Max Hailstorm",
+  "poderBase" : 10,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Max Ooze",
+  "poderBase" : 10,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Max Geyser",
+  "poderBase" : 10,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Max Airstream",
+  "poderBase" : 10,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Max Starfall",
+  "poderBase" : 10,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Max Wyrmwind",
+  "poderBase" : 10,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Max Mindstorm",
+  "poderBase" : 10,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Max Rockfall",
+  "poderBase" : 10,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Max Quake",
+  "poderBase" : 10,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Max Darkness",
+  "poderBase" : 10,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Max Overgrowth",
+  "poderBase" : 10,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Max Steelspike",
+  "poderBase" : 10,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Clangorous Soul",
+  "poderBase" : 40,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Body Press",
+  "poderBase" : 80,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Decorate",
+  "poderBase" : 40,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Drum Beating",
+  "poderBase" : 80,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Snap Trap",
+  "poderBase" : 35,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Pyro Ball",
+  "poderBase" : 120,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Behemoth Blade",
+  "poderBase" : 100,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Behemoth Bash",
+  "poderBase" : 100,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Aura Wheel",
+  "poderBase" : 110,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Breaking Swipe",
+  "poderBase" : 60,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Branch Poke",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Overdrive",
+  "poderBase" : 80,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Apple Acid",
+  "poderBase" : 80,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Grav Apple",
+  "poderBase" : 80,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Spirit Break",
+  "poderBase" : 75,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Strange Steam",
+  "poderBase" : 90,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Life Dew",
+  "poderBase" : 40,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Obstruct",
+  "poderBase" : 40,
+  "tipo" : "DARK"
+}, {
+  "nome" : "False Surrender",
+  "poderBase" : 80,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Meteor Assault",
+  "poderBase" : 150,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Eternabeam",
+  "poderBase" : 160,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Steel Beam",
+  "poderBase" : 140,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Expanding Force",
+  "poderBase" : 80,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Steel Roller",
+  "poderBase" : 130,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Scale Shot",
+  "poderBase" : 25,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Meteor Beam",
+  "poderBase" : 120,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Shell Side Arm",
+  "poderBase" : 90,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Misty Explosion",
+  "poderBase" : 100,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Grassy Glide",
+  "poderBase" : 55,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Rising Voltage",
+  "poderBase" : 70,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Terrain Pulse",
+  "poderBase" : 50,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Skitter Smack",
+  "poderBase" : 70,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Burning Jealousy",
+  "poderBase" : 70,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Lash Out",
+  "poderBase" : 75,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Poltergeist",
+  "poderBase" : 110,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Corrosive Gas",
+  "poderBase" : 40,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Coaching",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Flip Turn",
+  "poderBase" : 60,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Triple Axel",
+  "poderBase" : 20,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Dual Wingbeat",
+  "poderBase" : 40,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Scorching Sands",
+  "poderBase" : 70,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Jungle Healing",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Wicked Blow",
+  "poderBase" : 75,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Surging Strikes",
+  "poderBase" : 25,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Thunder Cage",
+  "poderBase" : 80,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Dragon Energy",
+  "poderBase" : 150,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Freezing Glare",
+  "poderBase" : 90,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Fiery Wrath",
+  "poderBase" : 90,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Thunderous Kick",
+  "poderBase" : 90,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Glacial Lance",
+  "poderBase" : 120,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Astral Barrage",
+  "poderBase" : 120,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Eerie Spell",
+  "poderBase" : 80,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Dire Claw",
+  "poderBase" : 80,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Psyshield Bash",
+  "poderBase" : 70,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Power Shift",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Stone Axe",
+  "poderBase" : 65,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Springtide Storm",
+  "poderBase" : 100,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Mystical Power",
+  "poderBase" : 70,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Raging Fury",
+  "poderBase" : 120,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Wave Crash",
+  "poderBase" : 120,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Chloroblast",
+  "poderBase" : 150,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Mountain Gale",
+  "poderBase" : 100,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Victory Dance",
+  "poderBase" : 40,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Headlong Rush",
+  "poderBase" : 120,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Barb Barrage",
+  "poderBase" : 60,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Esper Wing",
+  "poderBase" : 80,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Bitter Malice",
+  "poderBase" : 75,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Shelter",
+  "poderBase" : 40,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Triple Arrows",
+  "poderBase" : 90,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Infernal Parade",
+  "poderBase" : 60,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Ceaseless Edge",
+  "poderBase" : 65,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Bleakwind Storm",
+  "poderBase" : 100,
+  "tipo" : "FLYING"
+}, {
+  "nome" : "Wildbolt Storm",
+  "poderBase" : 100,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Sandsear Storm",
+  "poderBase" : 100,
+  "tipo" : "GROUND"
+}, {
+  "nome" : "Lunar Blessing",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Take Heart",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Tera Blast",
+  "poderBase" : 80,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Silk Trap",
+  "poderBase" : 40,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Axe Kick",
+  "poderBase" : 120,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Last Respects",
+  "poderBase" : 50,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Lumina Crash",
+  "poderBase" : 80,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Order Up",
+  "poderBase" : 80,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Jet Punch",
+  "poderBase" : 60,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Spicy Extract",
+  "poderBase" : 40,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Spin Out",
+  "poderBase" : 100,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Population Bomb",
+  "poderBase" : 20,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Ice Spinner",
+  "poderBase" : 80,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Glaive Rush",
+  "poderBase" : 120,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Revival Blessing",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Salt Cure",
+  "poderBase" : 40,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Triple Dive",
+  "poderBase" : 30,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Mortal Spin",
+  "poderBase" : 30,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Doodle",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Fillet Away",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Kowtow Cleave",
+  "poderBase" : 85,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Flower Trick",
+  "poderBase" : 70,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Torch Song",
+  "poderBase" : 80,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Aqua Step",
+  "poderBase" : 80,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Raging Bull",
+  "poderBase" : 90,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Make It Rain",
+  "poderBase" : 120,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Psyblade",
+  "poderBase" : 80,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Hydro Steam",
+  "poderBase" : 80,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Ruination",
+  "poderBase" : 1,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Collision Course",
+  "poderBase" : 100,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Electro Drift",
+  "poderBase" : 100,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Shed Tail",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Chilly Reception",
+  "poderBase" : 40,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Tidy Up",
+  "poderBase" : 40,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Snowscape",
+  "poderBase" : 40,
+  "tipo" : "ICE"
+}, {
+  "nome" : "Pounce",
+  "poderBase" : 50,
+  "tipo" : "BUG"
+}, {
+  "nome" : "Trailblaze",
+  "poderBase" : 50,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Chilling Water",
+  "poderBase" : 50,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Hyper Drill",
+  "poderBase" : 100,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Twin Beam",
+  "poderBase" : 40,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Rage Fist",
+  "poderBase" : 50,
+  "tipo" : "GHOST"
+}, {
+  "nome" : "Armor Cannon",
+  "poderBase" : 120,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Bitter Blade",
+  "poderBase" : 90,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Double Shock",
+  "poderBase" : 120,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Gigaton Hammer",
+  "poderBase" : 160,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Comeuppance",
+  "poderBase" : 1,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Aqua Cutter",
+  "poderBase" : 70,
+  "tipo" : "WATER"
+}, {
+  "nome" : "Blazing Torque",
+  "poderBase" : 80,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Wicked Torque",
+  "poderBase" : 80,
+  "tipo" : "DARK"
+}, {
+  "nome" : "Noxious Torque",
+  "poderBase" : 100,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Combat Torque",
+  "poderBase" : 100,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Magical Torque",
+  "poderBase" : 100,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Blood Moon",
+  "poderBase" : 140,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Matcha Gotcha",
+  "poderBase" : 80,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Syrup Bomb",
+  "poderBase" : 60,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Ivy Cudgel",
+  "poderBase" : 100,
+  "tipo" : "GRASS"
+}, {
+  "nome" : "Electro Shot",
+  "poderBase" : 130,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Tera Starstorm",
+  "poderBase" : 120,
+  "tipo" : "NORMAL"
+}, {
+  "nome" : "Fickle Beam",
+  "poderBase" : 80,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Burning Bulwark",
+  "poderBase" : 40,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Thunderclap",
+  "poderBase" : 70,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Mighty Cleave",
+  "poderBase" : 95,
+  "tipo" : "ROCK"
+}, {
+  "nome" : "Tachyon Cutter",
+  "poderBase" : 50,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Hard Press",
+  "poderBase" : 40,
+  "tipo" : "STEEL"
+}, {
+  "nome" : "Dragon Cheer",
+  "poderBase" : 40,
+  "tipo" : "DRAGON"
+}, {
+  "nome" : "Alluring Voice",
+  "poderBase" : 80,
+  "tipo" : "FAIRY"
+}, {
+  "nome" : "Temper Flare",
+  "poderBase" : 75,
+  "tipo" : "FIRE"
+}, {
+  "nome" : "Supercell Slam",
+  "poderBase" : 100,
+  "tipo" : "ELECTRIC"
+}, {
+  "nome" : "Psychic Noise",
+  "poderBase" : 75,
+  "tipo" : "PSYCHIC"
+}, {
+  "nome" : "Upper Hand",
+  "poderBase" : 65,
+  "tipo" : "FIGHTING"
+}, {
+  "nome" : "Malignant Chain",
+  "poderBase" : 100,
+  "tipo" : "POISON"
+}, {
+  "nome" : "Shadow Rush",
+  "poderBase" : 55,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Blast",
+  "poderBase" : 80,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Blitz",
+  "poderBase" : 40,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Bolt",
+  "poderBase" : 75,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Break",
+  "poderBase" : 75,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Chill",
+  "poderBase" : 75,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow End",
+  "poderBase" : 120,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Fire",
+  "poderBase" : 75,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Rave",
+  "poderBase" : 70,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Storm",
+  "poderBase" : 95,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Wave",
+  "poderBase" : 50,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Down",
+  "poderBase" : 40,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Half",
+  "poderBase" : 40,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Hold",
+  "poderBase" : 40,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Mist",
+  "poderBase" : 40,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Panic",
+  "poderBase" : 40,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Shed",
+  "poderBase" : 40,
+  "tipo" : "UNKNOWN"
+}, {
+  "nome" : "Shadow Sky",
+  "poderBase" : 40,
+  "tipo" : "UNKNOWN"
+} ]

@@ -6,12 +6,22 @@ import com.pooke.excecoes.EquipeDerrotadaException;
 import com.pooke.excecoes.SessaoInvalidaException;
 import com.pooke.util.Printer;
 
+/**
+ * Controlador de alto nível responsável por orquestrar a progressão do jogador.
+ * Delega responsabilidades de encontros aleatórios e transições de estado (PREPARACAO, EXPLORACAO, etc).
+ */
 public class Sessao {
     EstadoSessao estadoAtual;
     Treinador treinador;
     com.pooke.apresentacao.RepositorioPokemon repositorio;
     int contBatalhas;
 
+    /**
+     * Inicializa a sessão com um treinador e um banco de dados.
+     * O estado inicial sempre será PREPARACAO.
+     * @param treinador Instância do jogador.
+     * @param repositorio Base de dados de Pokémons e Golpes instanciada.
+     */
     public Sessao(Treinador treinador, com.pooke.apresentacao.RepositorioPokemon repositorio) {
         this.estadoAtual = EstadoSessao.PREPARACAO;
         this.treinador = treinador;

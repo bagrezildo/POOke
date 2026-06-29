@@ -15,6 +15,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Repositório central que atua como Banco de Dados in-memory durante a execução.
+ * Carrega e armazena os dados vindos do `GerenciadorCacheJson` populando as coleções locais.
+ */
 public class RepositorioPokemon {
     private final GerenciadorCacheJson cache;
     private List<PokemonApiDto> bancoDePokemons;

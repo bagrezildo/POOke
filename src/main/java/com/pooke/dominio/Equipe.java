@@ -6,6 +6,10 @@ import com.pooke.excecoes.EspecieDuplicadaException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Agregador que gerencia a lista de Pokémons de um treinador.
+ * Enforça o limite de 6 espécies e lida com validações de duplicidade.
+ */
 public class Equipe {
     private List<Pokemon> pokemons;
     private int limiteMaximo;
@@ -15,6 +19,12 @@ public class Equipe {
         this.limiteMaximo = 6;
     }
 
+    /**
+     * Adiciona um Pokémon à equipe.
+     * @param p O Pokémon a ser adicionado.
+     * @throws EquipeLotadaException se a equipe já possuir 6 membros.
+     * @throws EspecieDuplicadaException se o treinador já possuir este Pokémon.
+     */
     public void adicionarPokemon(Pokemon p){
         if(pokemons.size() >= limiteMaximo){
             throw new EquipeLotadaException("A equipe já possui "+limiteMaximo+" membros!");

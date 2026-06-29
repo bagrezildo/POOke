@@ -1,5 +1,9 @@
 package com.pooke.dominio;
 
+/**
+ * Representa os ataques disponíveis para os Pokémons.
+ * Contém informações essenciais de poder base e Tipo para cálculos de dano.
+ */
 public class Golpe {
     private String nome;
     private int poderBase;

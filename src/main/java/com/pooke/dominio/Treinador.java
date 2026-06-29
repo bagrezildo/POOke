@@ -5,6 +5,10 @@ import com.pooke.dominio.itens.Item;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Entidade que representa o jogador no sistema. Contém uma equipe de Pokémons
+ * e uma mochila de itens gerenciada por listas polimórficas.
+ */
 public class Treinador {
     private String nome;
     protected Equipe equipe;

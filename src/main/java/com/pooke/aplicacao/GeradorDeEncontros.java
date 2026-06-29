@@ -7,6 +7,10 @@ import com.pooke.dominio.Treinador;
 
 import java.util.List;
 
+/**
+ * Fábrica de eventos dinâmica. Sorteia o tipo de encontro que o jogador terá (Batalha ou Achado de Item)
+ * e nivela os inimigos dinamicamente de acordo com a força atual da equipe do jogador.
+ */
 public class GeradorDeEncontros {
     public static Equipe gerarEquipeInimiga(Treinador treinador, RepositorioPokemon repositorio) {
         Equipe equipeTreinador = treinador.getEquipe();

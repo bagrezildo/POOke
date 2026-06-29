@@ -4,6 +4,10 @@ import com.pooke.dominio.Pokemon;
 import com.pooke.excecoes.CurarDesmaiadoException;
 import com.pooke.excecoes.VidaCheiaException;
 
+/**
+ * Implementação concreta de Item que restaura os pontos de vida (HP) de um Pokémon,
+ * sem exceder o HP Máximo definido.
+ */
 public class PocaoCura implements Item {
     private int poderCura;
 

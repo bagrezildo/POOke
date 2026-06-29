@@ -9,6 +9,10 @@ import java.util.List;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Entidade base do jogo, representando o Pokémon e sua lógica fundamental.
+ * Contém regras de negócio para atributos, recebimento de dano e acúmulo de experiência.
+ */
 public abstract class Pokemon {
     protected String nome;
     protected Tipo tipoPrimario;
@@ -77,6 +81,10 @@ public abstract class Pokemon {
     public List<Golpe> getGolpesEquipados() { return golpesEquipados; }
 
 
+    /**
+     * Deduz a vida do Pokémon com base no dano calculado, impedindo valores negativos.
+     * @param dano valor do dano infligido pelo atacante
+     */
     public void receberDano(int dano){
         this.hpAtual = this.getHpAtual() - dano;
         if(this.hpAtual <= 0){
@@ -121,6 +129,11 @@ public abstract class Pokemon {
         }
     }
 
+    /**
+     * Regra de Negócio: Equipa automaticamente um golpe novo.
+     * Caso o limite de 4 golpes seja excedido, substitui o mais antigo.
+     * @param golpe o novo Golpe a ser aprendido
+     */
     public void aprenderGolpe(Golpe golpe) {
         this.golpesAprendidos.add(golpe);
 
@@ -133,6 +146,11 @@ public abstract class Pokemon {
         }
     }
 
+    /**
+     * Processa a experiência ganha em batalhas. Se a XP exceder o limiar atual,
+     * sobe o nível do Pokémon recursivamente e verifica a fila de aprendizado.
+     * @param xp Quantidade de experiência adquirida
+     */
     public void ganharXp(int xp) {
         this.xpAtual += xp;
         Printer.imprimir(nome  + " ganhou " + xp + " de experiência");
@@ -213,6 +231,10 @@ public abstract class Pokemon {
 
     public int getNivel() { return this.nivel; }
 
+    /**
+     * Comportamento Polimórfico: O incremento de status é específico por tipo de Pokemon
+     * (Físico vs Special).
+     */
     public abstract void subirDeNivel();
 
 }

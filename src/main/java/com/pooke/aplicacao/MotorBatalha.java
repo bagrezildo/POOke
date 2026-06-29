@@ -12,6 +12,10 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * Motor central de combate da aplicação. Gerencia o loop de turnos, lógica de
+ * ataques, velocidade de execução, uso de itens e mecânica de captura de Pokémons selvagens.
+ */
 public class MotorBatalha {
     private final Random random = new Random();
 

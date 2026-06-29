@@ -4,6 +4,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+pokedex.txt
+
 ### STS ###
 .apt_generated
 .classpath

@@ -6,12 +6,13 @@ public class PokemonSpecial extends Pokemon {
         super(nome, tipoPrimario, tipoSecundario, hpMax, ataque, defesa, velocidade);
     }
 
+    @Override
     public void subirDeNivel(){
         this.nivel += 1;
-        this.ataque += 3;
-        this.defesa += 1;
+        this.ataque += 4;
+        this.defesa += 7;
         this.velocidade += 5;
-        this.hpMax +=10;
+        this.hpMax += 15;
         this.hpAtual = this.hpMax;
     }
 }

@@ -37,6 +37,7 @@ public class Printer {
         System.out.println("\n[MENU EXPLORAÇÃO]");
         System.out.println("1 - Avançar na Rota");
         System.out.println("2 - Ver Status da Equipe");
+        System.out.println("3 - Abrir Pokédex");
         System.out.println("0 - Desistir (Finalizar Jogo)");
         System.out.print("Sua escolha: ");
     }
@@ -47,14 +48,20 @@ public class Printer {
         System.out.print("Sua escolha: ");
     }
     public static void imprimirEquipe(Treinador treinador) {
-        System.out.println("\n========== SUA EQUIPE ==========");
-        System.out.println("Pokémons Vivos: " + (treinador.getEquipe().obterProximoPokemonVivo() != null ? "Sim" : "Não"));
+        StringBuilder sb = new StringBuilder();
+        List<Pokemon> pokemons = treinador.getEquipe().getPokemons();
+        sb.append("\n========== SUA EQUIPE ==========\n");
+        sb.append("Pokémons Vivos: " + (treinador.getEquipe().obterProximoPokemonVivo() != null ? "Sim\n" : "Não\n"));
         if (treinador.getEquipe().getPokemons().isEmpty()) {
-            System.out.println("Sua equipe está vazia.");
+            sb.append("Sua equipe está vazia.");
         } else {
-            for (Pokemon p : treinador.getEquipe().getPokemons()) {
-                System.out.println(p.toString());
+            for (Pokemon p : pokemons) {
+                sb.append("[").append(pokemons.indexOf(p) + 1).append("]");
+                sb.append(" ").append(p.toString());
+                sb.append("\n");
             }
+
+            System.out.println(sb.toString());
         }
     }
 
@@ -71,5 +78,19 @@ public class Printer {
         }
 
         System.out.println(sb.toString());
+    }
+
+    public static void imprimirPokedex(){
+        List<String> registrados = PokedexManager.carregarPokedex();
+        System.out.println("\n========== SUA POKÉDEX ==========");
+        if (registrados.isEmpty()) {
+            System.out.println("Sua Pokédex está vazia! Explore e capture novos Pokémons.");
+        } else {
+            System.out.println("Você já registrou " + registrados.size() + " espécie(s):");
+            for (String p : registrados) {
+                System.out.println("- " + p);
+            }
+        }
+        System.out.println("=================================");
     }
 }

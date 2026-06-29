@@ -6,12 +6,13 @@ public class PokemonFisico extends Pokemon{
         super(nome, tipoPrimario, tipoSecundario, hpMax, ataque, defesa, velocidade);
     }
 
+    @Override
     public void subirDeNivel(){
         this.nivel += 1;
-        this.ataque += 5;
-        this.defesa += 4;
-        this.velocidade += 2;
-        this.hpMax +=10;
+        this.ataque += 7;
+        this.defesa += 6;
+        this.velocidade += 4;
+        this.hpMax += 15;
         this.hpAtual = this.hpMax;
     }
 }

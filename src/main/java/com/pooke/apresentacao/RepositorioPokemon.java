@@ -66,12 +66,28 @@ public class RepositorioPokemon {
                 Pokemon pokemonInstanciado = PokemonFactory.obterDoDto(dto);
 
                 if (dto.moves != null && !dto.moves.isEmpty()) {
-                    String nomeGolpeApi = dto.moves.get(0).move.name.toLowerCase();
+                    dto.moves.sort((m1, m2) -> {
+                        int l1 = m1.level_learned_at == null ? 999 : m1.level_learned_at;
+                        int l2 = m2.level_learned_at == null ? 999 : m2.level_learned_at;
+                        return Integer.compare(l1, l2);
+                    });
 
-                    if (bancoDeGolpes.containsKey(nomeGolpeApi)) {
-                        pokemonInstanciado.aprenderGolpe(bancoDeGolpes.get(nomeGolpeApi));
-                    } else {
-                        pokemonInstanciado.aprenderGolpe(new Golpe(nomeGolpeApi, 40, Tipo.NORMAL));
+                    int golpesEquipados = 0;
+                    for (PokemonApiDto.MoveWrapper wrapper : dto.moves) {
+                        if (wrapper.level_learned_at != null) {
+                            Golpe golpe = obterGolpeDoBanco(wrapper.move.name.toLowerCase());
+                            if (golpesEquipados < 4) {
+                                pokemonInstanciado.aprenderGolpe(golpe);
+                                golpesEquipados++;
+                            } else {
+                                pokemonInstanciado.getFilaDeAprendizado().put(wrapper.level_learned_at, golpe);
+                            }
+                        }
+                    }
+
+                    if (golpesEquipados == 0) {
+                        String golpeInicial = dto.moves.get(0).move.name.toLowerCase();
+                        pokemonInstanciado.aprenderGolpe(obterGolpeDoBanco(golpeInicial));
                     }
                 }
 
@@ -79,5 +95,14 @@ public class RepositorioPokemon {
             }
         }
         return starters;
+    }
+
+    private Golpe obterGolpeDoBanco(String nomeGolpeApi) {
+        String chaveBusca = nomeGolpeApi.replace("-", " ").toLowerCase();
+        if (bancoDeGolpes.containsKey(chaveBusca)) {
+            return bancoDeGolpes.get(chaveBusca);
+        } else {
+            return new Golpe(nomeGolpeApi, 40, Tipo.NORMAL);
+        }
     }
 }

@@ -35,4 +35,10 @@ public class Treinador {
     public void removerItem(Item item){
         this.inventario.remove(item);
     }
+
+    public void expShare(int xp){
+        for (Pokemon pokemon : equipe.getPokemons()) {
+            pokemon.ganharXp(xp);
+        }
+    }
 }

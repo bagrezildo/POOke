@@ -25,7 +25,12 @@ public class Equipe {
                 throw new EspecieDuplicadaException("A equipe já possui um " + p.getNome() + " membro!");
             }
         }
+        p.receberCura(p.getHpMax());
         this.pokemons.add(p);
+    }
+
+    public void removerPokemon(Pokemon p){
+        this.pokemons.remove(this.pokemons.indexOf(p));
     }
 
     public Pokemon obterProximoPokemonVivo(){
@@ -45,6 +50,9 @@ public class Equipe {
         }
         return true;
     }
+
+    public int tamanho(){ return this.pokemons.size(); }
+    public int getLimiteMaximo(){ return this.limiteMaximo; }
 
     public List<Pokemon> getPokemons() { return this.pokemons;}
 }

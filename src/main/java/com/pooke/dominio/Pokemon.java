@@ -1,10 +1,13 @@
 package com.pooke.dominio;
 
-import com.pooke.excecoes.AtributoInexistente;
+import com.pooke.excecoes.AtributoInexistenteException;
 import com.pooke.excecoes.GolpeNaoAprendido;
+import com.pooke.util.Printer;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 public abstract class Pokemon {
     protected String nome;
@@ -19,6 +22,10 @@ public abstract class Pokemon {
     protected List<Golpe> golpesAprendidos;
     protected List<Golpe> golpesEquipados;
 
+    protected int xpAtual;
+    protected int xpProxNivel;
+    protected Map<Integer, Golpe> filaDeAprendizado;
+
     public Pokemon(String nome, Tipo tipoPrimario, Tipo tipoSecundario, int hpMax, int ataque, int defesa, int velocidade) {
         this.nome = formataNome(nome);
         this.tipoPrimario = tipoPrimario;
@@ -31,7 +38,12 @@ public abstract class Pokemon {
         this.velocidade = velocidade;
         this.golpesAprendidos = new ArrayList<>();
         this.golpesEquipados = new ArrayList<>();
+        this.xpAtual = 0;
+        this.xpProxNivel = 20;
+        this.filaDeAprendizado = new HashMap<>();
     }
+
+    public Map<Integer, Golpe> getFilaDeAprendizado() { return filaDeAprendizado; }
 
     public String getNome() {
         return nome;
@@ -89,7 +101,7 @@ public abstract class Pokemon {
                 this.hpMax += bonus;
                 this.hpAtual = Math.min(this.hpAtual, this.hpMax);
             }
-            default -> throw new AtributoInexistente("Não tem como bonificar o que não existe!");
+            default -> throw new AtributoInexistenteException("Não tem como bonificar o que não existe!");
         }
     }
 
@@ -104,7 +116,7 @@ public abstract class Pokemon {
                     this.hpAtual = this.hpMax;
                 }
             }
-            default -> throw new AtributoInexistente("Não tem como reduzir o que não existe!");
+            default -> throw new AtributoInexistenteException("Não tem como reduzir o que não existe!");
 
         }
     }
@@ -114,6 +126,28 @@ public abstract class Pokemon {
 
         if (this.golpesEquipados.size() < 4) {
             this.golpesEquipados.add(golpe);
+        } else {
+            Golpe esquecido = this.golpesEquipados.remove(0);
+            this.golpesEquipados.add(golpe);
+            Printer.imprimir(this.nome + " esqueceu " + esquecido.getNome() + " e equipou " + golpe.getNome() + "!");
+        }
+    }
+
+    public void ganharXp(int xp) {
+        this.xpAtual += xp;
+        Printer.imprimir(nome  + " ganhou " + xp + " de experiência");
+        while (this.xpAtual >= this.xpProxNivel) {
+            this.xpAtual -= this.xpProxNivel;
+            this.subirDeNivel();
+            this.xpProxNivel = this.nivel * 100;
+
+            Printer.imprimir(this.getNome() + " subiu de nível!");
+            
+            if (this.filaDeAprendizado.containsKey(this.nivel)) {
+                Golpe golpeNovo = this.filaDeAprendizado.get(this.nivel);
+                this.aprenderGolpe(golpeNovo); 
+                Printer.imprimir(this.nome + " aprendeu " + golpeNovo.getNome() + "!");
+            }
         }
     }
 
@@ -150,6 +184,7 @@ public abstract class Pokemon {
                 sb.append("\t").append(golpe.toString());
             }
         }
+        sb.append("\n Exp: ").append(xpAtual).append("/").append(xpProxNivel);
         return sb.toString();
     }
 
@@ -175,6 +210,8 @@ public abstract class Pokemon {
 
         return result.toString();
     }
+
+    public int getNivel() { return this.nivel; }
 
     public abstract void subirDeNivel();
 

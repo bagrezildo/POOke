@@ -6,6 +6,7 @@ import com.pooke.apresentacao.RepositorioPokemon;
 import com.pooke.dominio.*;
 import com.pooke.dominio.itens.PocaoCura;
 import com.pooke.excecoes.SessaoInvalidaException;
+import com.pooke.util.PokedexManager;
 import com.pooke.util.Printer;
 
 import java.util.List;
@@ -14,19 +15,30 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Printer.header();
+        int numeroEncontro = 0;
+        
+        List<String> pokedex = PokedexManager.carregarPokedex();
+        if (!pokedex.isEmpty()) {
+            Printer.imprimir("== Bem-vindo de volta! Sua Pokédex possui " + pokedex.size() + " espécies registradas! ==");
+        }
 
         Scanner scanner =  new Scanner(System.in);
 
         RepositorioPokemon repositorio = new RepositorioPokemon();
         repositorio.inicializarBanco();
 
-        Treinador treinador = new Treinador("Matri");
+        System.out.print("Digite o nome do jogador: ");
+        String nome = scanner.nextLine();
+
+        Treinador treinador = new Treinador(nome);
 
         treinador.adicionarItem(new PocaoCura(20));
         treinador.adicionarItem(new PocaoCura(20));
-        Sessao sessao = new Sessao(treinador);
+        Sessao sessao = new Sessao(treinador, repositorio);
 
         while (sessao.getEstadoAtual() != EstadoSessao.FINALIZADA) {
+            numeroEncontro++;
+            Printer.imprimir("Encontro número " + numeroEncontro);
             try {
                 switch (sessao.getEstadoAtual()) {
                     case PREPARACAO:
@@ -42,6 +54,7 @@ public class Main {
 
                         Pokemon escolhido = iniciais.get(escolha - 1);
                         treinador.getEquipe().adicionarPokemon(escolhido);
+                        PokedexManager.registrar(escolhido.getNome());
 
                         Printer.imprimir("Você escolheu o " +escolhido.getNome() + ", boa jornada!");
                         sessao.preparar();
@@ -53,8 +66,9 @@ public class Main {
                         if (opcao.equals("1")) {
                             sessao.explorar();
                         } else if (opcao.equals("2")) {
-//                            Printer.imprimir("Pokémons Vivos: " + (treinador.getEquipe().obterProximoPokemonVivo() != null ? "Sim" : "Não"));
                             Printer.imprimirEquipe(treinador);
+                        } else if (opcao.equals("3")) {
+                            Printer.imprimirPokedex();
                         } else if (opcao.equals("0")) {
                             Printer.imprimir("Você desistiu da jornada.");
                             System.exit(0);

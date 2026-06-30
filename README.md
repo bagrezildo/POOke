@@ -24,9 +24,9 @@ O POOke foi desenhado para ser compilado e executado em qualquer ambiente que po
 Se você não possui uma IDE e quer compilar pelo terminal puro, basta ter o [Apache Maven](https://maven.apache.org/) e o JDK 17 instalados:
 
 1. Abra o terminal na raiz do projeto (onde está o arquivo `pom.xml`).
-2. Limpe a build e compile o projeto ignorando os arquivos de teste residuais:
+2. Limpe a build e compile o projeto:
    ```bash
-   mvn clean compile -DskipTests
+   mvn clean compile 
    ```
 3. Execute o jogo usando o plugin do maven:
    ```bash
@@ -37,7 +37,7 @@ Se você não possui uma IDE e quer compilar pelo terminal puro, basta ter o [Ap
 Se desejar gerar um arquivo `.jar` fechado para distribuir para amigos que não são programadores:
 1. Compile e empacote o projeto através do Maven:
    ```bash
-   mvn clean package -DskipTests
+   mvn clean package
    ```
 2. Um arquivo `.jar` será gerado na pasta `target` (ex: `POOke-0.0.1-SNAPSHOT-jar-with-dependencies.jar`).
 3. Para rodar, mova esse `.jar` para perto da pasta `/data/` e execute:

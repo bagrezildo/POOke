@@ -21,7 +21,7 @@ public class PokedexManager {
         try {
             return Files.readAllLines(Paths.get(POKEDEX_FILE));
         } catch (IOException e) {
-            System.out.println("Erro ao carregar a Pokedex: " + e.getMessage());
+            Printer.imprimir("Erro ao carregar a Pokedex: " + e.getMessage());
             return new ArrayList<>();
         }
     }
@@ -36,7 +36,7 @@ public class PokedexManager {
                 Files.write(Paths.get(POKEDEX_FILE), linha.getBytes(), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
                 Printer.imprimir("\n[Novo Registro na Pokedex] " + nomePokemon + " foi adicionado a sua pokedex!");
             } catch (IOException e) {
-                System.out.println("Erro ao salvar na Pokedex: " + e.getMessage());
+                Printer.imprimir("Erro ao salvar na Pokedex: " + e.getMessage());
             }
         }
     }

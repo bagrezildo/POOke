@@ -6,6 +6,7 @@ import com.pooke.apresentacao.dto.PokemonApiDto;
 import com.pooke.dominio.Golpe;
 import com.pooke.dominio.Pokemon;
 import com.pooke.dominio.Tipo;
+import com.pooke.util.Printer;
 import com.pooke.util.ScriptPopularGolpes;
 import com.pooke.util.ScriptPopularPokemons;
 
@@ -33,13 +34,13 @@ public class RepositorioPokemon {
     public void inicializarBanco() {
         File arquivoGolpes = new File("data/golpes_db.json");
         if (!arquivoGolpes.exists()) {
-            System.out.println("==== Banco de Golpes não encontrado. Iniciando gerador... ====");
+            Printer.imprimir("==== Banco de Golpes não encontrado. Iniciando gerador... ====");
             ScriptPopularGolpes.main(new String[]{});
         }
 
         File arquivoPokemons = new File("data/pokemons_db.json");
         if (!arquivoPokemons.exists()) {
-            System.out.println("==== Banco de Pokémons não encontrado. Iniciando gerador... ====");
+            Printer.imprimir("==== Banco de Pokémons não encontrado. Iniciando gerador... ====");
             ScriptPopularPokemons.main(new String[]{});
         }
 
@@ -52,7 +53,7 @@ public class RepositorioPokemon {
 
         List<PokemonApiDto> cacheados = cache.carregarCache("pokemons_db.json", new TypeReference<List<PokemonApiDto>>() {});
         if (cacheados != null && !cacheados.isEmpty()) {
-            System.out.println("==== Todos os dados foram carregados na memória com sucesso! ====");
+            Printer.imprimir("==== Todos os dados foram carregados ====");
             this.bancoDePokemons = cacheados;
         }
     }

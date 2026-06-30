@@ -10,7 +10,6 @@ public enum Tipo {
     private List<Tipo> halfDamageTo = Collections.emptyList();
     private List<Tipo> noDamageTo = Collections.emptyList();
 
-    // Bloco estático para preencher as matrizes de dano (Atacante -> Defensor)
     static {
         NORMAL.halfDamageTo = List.of(ROCK, STEEL);
         NORMAL.noDamageTo = List.of(GHOST);

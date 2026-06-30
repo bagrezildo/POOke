@@ -18,7 +18,7 @@ public class ScriptPopularPokemons {
         PokeApiClient apiClient = new PokeApiClient();
         ObjectMapper mapper = new ObjectMapper();
         HttpClient httpClient = HttpClient.newHttpClient();
-        System.out.println("Iniciando varredura da PokeAPI para os Pokémons originais...");
+        Printer.imprimir("Iniciando varredura da PokeAPI para os Pokémons originais...");
         try {
 
             HttpRequest request = HttpRequest.newBuilder()
@@ -31,7 +31,7 @@ public class ScriptPopularPokemons {
             JsonNode results = rootNode.get("results");
 
             int total = results.size();
-            System.out.println("Encontrados " + total + " Pokémons. Começando o download com streaming de arquivo...");
+            Printer.imprimir("Encontrados " + total + " Pokémons. Começando o download com streaming de arquivo...");
             File dir = new File("data");
             if (!dir.exists()) dir.mkdirs();
             ObjectWriter writer = mapper.writer().withDefaultPrettyPrinter();
@@ -48,7 +48,7 @@ public class ScriptPopularPokemons {
 
                     if (dto != null) {
                         seqWriter.write(dto);
-                        System.out.println("[" + contador + "/" + total + "] Salvo no disco: " + dto.name);
+                        Printer.imprimir("[" + contador + "/" + total + "] Salvo no disco: " + dto.name);
                     }
 
                     contador++;
@@ -56,7 +56,7 @@ public class ScriptPopularPokemons {
                 }
             }
 
-            System.out.println("\nScript finalizado com sucesso! O banco de dados de Pokémons está completo.");
+            Printer.imprimir("\nScript finalizado com sucesso! O banco de dados de Pokémons está completo.");
 
         } catch (Exception e) {
             System.err.println("Erro crítico no script: " + e.getMessage());

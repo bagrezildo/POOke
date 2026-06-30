@@ -86,9 +86,9 @@ public class Main {
                         break;
                 }
             } catch (SessaoInvalidaException e) {
-                System.out.println("\n[ERRO] " + e.getMessage());
+                System.err.println("\n[ERRO] " + e.getMessage());
             } catch (Exception e) {
-                System.out.println("\n[ERRO CRÍTICO] " + e.getMessage());
+                System.err.println("\n[ERRO CRÍTICO] " + e.getMessage());
             }
         }
         Printer.imprimir("\nObrigado por jogar POOke!");

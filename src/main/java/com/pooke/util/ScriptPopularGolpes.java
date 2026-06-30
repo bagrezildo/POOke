@@ -21,7 +21,7 @@ public class ScriptPopularGolpes {
         PokeApiClient apiClient = new PokeApiClient();
         ObjectMapper mapper = new ObjectMapper();
         HttpClient httpClient = HttpClient.newHttpClient();
-        System.out.println("Iniciando varredura completa da PokeAPI...");
+        Printer.imprimir("Iniciando varredura completa da PokeAPI...");
         try {
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(URI.create("https://pokeapi.co/api/v2/move/?limit=1000"))
@@ -33,7 +33,7 @@ public class ScriptPopularGolpes {
             JsonNode results = rootNode.get("results");
 
             int total = results.size();
-            System.out.println("Encontrados " + total + " golpes na API. Começando o download com streaming de arquivo...");
+            Printer.imprimir("Encontrados " + total + " golpes na API. Começando o download com streaming de arquivo...");
             File dir = new File("data");
             if (!dir.exists()) dir.mkdirs();
             ObjectWriter writer = mapper.writer().withDefaultPrettyPrinter();
@@ -56,14 +56,14 @@ public class ScriptPopularGolpes {
                         Golpe golpe = new Golpe(moveDto.name, poder, tipoGolpe);
 
                         seqWriter.write(golpe);
-                        System.out.println("[" + contador + "/" + total + "] Salvo: " + golpe.getNome());
+                        Printer.imprimir("[" + contador + "/" + total + "] Salvo: " + golpe.getNome());
                     }
 
                     contador++;
                     Thread.sleep(100);
                 }
             }
-            System.out.println("\nScript finalizado com sucesso!");
+            Printer.imprimir("\nScript finalizado com sucesso!");
 
         } catch (Exception e) {
             System.err.println("Erro crítico no script: " + e.getMessage());

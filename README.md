@@ -6,8 +6,8 @@ POOke é um simulador de batalhas Pokémon totalmente desenvolvido em Java, roda
 - **Sistema de Batalha em Turnos:** Lute contra equipes selvagens geradas proceduralmente.
 - **Vantagem de Tipos:** Multiplicadores reais de STAB e Fraqueza/Resistência.
 - **Gerenciamento de Equipe:** Mantenha até 6 Pokémons, substitua membros ao capturar novos e monitore a vida de todos.
-- **Progresso de Nível:** Pokémons ganham experiência, sobem de nível, melhoram seus atributos e aprendem novos golpes naturais!
-- **Pokédex Persistente:** O seu progresso de capturas é salvo em um arquivo local (`pokedex.txt`), mantendo seu legado entre diferentes sessões.
+- **Progresso de Nível:** Pokémons ganham experiência, sobem de nível, melhoram seus atributos e aprendem novos golpes!
+- **Pokédex Persistente:** O progresso de capturas é salvo em um arquivo local (`pokedex.txt`), mantendo seu legado entre diferentes sessões.
 - **Banco de Dados Local:** Utiliza cache JSON com base na API oficial (PokéAPI) para carregar atributos balanceados.
 
 ## 🚀 Como Executar o Jogo
@@ -63,8 +63,13 @@ classDiagram
         -Treinador treinador
         -RepositorioPokemon repositorio
         -EstadoSessao estadoAtual
+        -int contBatalhas
         +preparar()
         +explorar()
+        +sairDoAcampamento()
+        +acamparUsarItem(Item item, Pokemon alvo)
+        +acamparEquiparGolpe(Pokemon pokemon, Golpe novoGolpe, Golpe antigoGolpe)
+        +getEstadoAtual() EstadoSessao
     }
     class EstadoSessao {
         <<enumeration>>
@@ -74,45 +79,65 @@ classDiagram
         FINALIZADA
     }
     class GeradorDeEncontros {
-        +gerarEncontro(Treinador jogador, RepositorioPokemon repo)$ Encontro
-        +gerarEquipeInimiga(Treinador jogador, RepositorioPokemon repo)$ Equipe
+        +gerarEquipeInimiga(Treinador treinador, RepositorioPokemon repositorio)$ Equipe
     }
     class MotorBatalha {
         -Random random
-        +iniciarBatalha(Treinador jogador, Equipe inimigos, RepositorioPokemon repo)
-        -calcularDano(Pokemon atacante, Golpe golpe, Pokemon defensor) int
+        +batalhar(Treinador jogador, Equipe inimigos) boolean
     }
 
     %% Pacote Domínio
     class Treinador {
         -String nome
-        -Equipe equipe
-        -List~Item~ mochila
+        #Equipe equipe
+        -List~Item~ inventario
+        +getNome() String
+        +getEquipe() Equipe
+        +getInventario() List~Item~
         +adicionarItem(Item item)
-        +usarItem(Item item, Pokemon alvo)
+        +removerItem(Item item)
+        +expShare(int xp)
     }
     class Equipe {
         -List~Pokemon~ pokemons
         -int limiteMaximo
         +adicionarPokemon(Pokemon p)
         +removerPokemon(Pokemon p)
+        +obterProximoPokemonVivo() Pokemon
     }
     class Pokemon {
         <<abstract>>
-        -String nome
-        -Tipo tipoPrimario
-        -int nivel
-        -int hpMax
-        -int hpAtual
-        -List~Golpe~ golpesEquipados
+        #String nome
+        #Tipo tipoPrimario
+        #Tipo tipoSecundario
+        #int nivel
+        #int hpMax
+        #int hpAtual
+        #int ataque
+        #int defesa
+        #int velocidade
+        #List~Golpe~ golpesAprendidos
+        #List~Golpe~ golpesEquipados
+        #int xpAtual
+        #int xpProxNivel
+        #Map~Integer, Golpe~ filaDeAprendizado
         +receberDano(int dano)
+        +receberCura(int cura)
+        +aumentarAtributo(String atributo, int bonus)
+        +removerAtributo(String atributo, int bonus)
+        +aprenderGolpe(Golpe golpe)
         +ganharXp(int xp)
+        +equiparGolpe(Golpe golpeEquipado, Golpe golpeRemovido)
         +subirDeNivel()*
     }
     class PokemonFisico {
+        -int bonusDanoFisico
+        +getBonusDanoFisico() int
         +subirDeNivel()
     }
     class PokemonSpecial {
+        -int bonusDanoSpecial
+        +getBonusDanoSpecial() int
         +subirDeNivel()
     }
     class Tipo {
@@ -129,28 +154,30 @@ classDiagram
     %% Encontros
     class Encontro {
         <<abstract>>
-        +processar(Treinador jogador, RepositorioPokemon repo)*
+        +processar(Treinador jogador)*
     }
     class EncontroCombate {
         -Equipe inimigos
-        +processar(Treinador jogador, RepositorioPokemon repo)
+        +processar(Treinador jogador)
     }
     class EncontroAcampamento {
-        +processar(Treinador jogador, RepositorioPokemon repo)
+        -String mensagemBoasVindas
+        +processar(Treinador jogador)
     }
 
     %% Itens
     class Item {
         <<interface>>
-        +aplicar(Pokemon p)*
+        +aplicar(Pokemon alvo)*
     }
     class PocaoCura {
-        -int quantidadeCura
-        +aplicar(Pokemon p)
+        -int poderCura
+        +aplicar(Pokemon alvo)
     }
 
     %% Factories e Apresentação
     class RepositorioPokemon {
+        -GerenciadorCacheJson cache
         -List~PokemonApiDto~ bancoDePokemons
         -Map~String, Golpe~ bancoDeGolpes
         +inicializarBanco()
@@ -160,7 +187,7 @@ classDiagram
         +obterDoDto(PokemonApiDto dto)$ Pokemon
     }
     class GolpeFactory {
-        +obterDoDto(MoveApiDto dto)$ Golpe
+        +obterDoDto(GolpeApiDto dto)$ Golpe
     }
     class PokedexManager {
         +carregarPokedex()$ List~String~
